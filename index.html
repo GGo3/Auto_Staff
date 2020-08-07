@@ -6,9 +6,132 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__menu">
+            <div class="container">
+                <div class="header__menu-inner">
+                    <div class="header__nav">
+                        <ul>   
+                            <li><a href="#">Авторазбор</a></li>
+                            <li><a href="#">Выкуп авто</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__user">
+                        <a class="header__btn-singin" href="#">Войти</a>
+                        <a class="header__btn-register" href="#">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="container">
+                <div class="header__main-inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="/images/Logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header__basket">
+                        <a class="header__basket-icon" href="#">
+                            <img src="/images/Basket.svg" alt="basket">
+                            <span>1</span>
+                        </a>
+                        <div class="header__basket-title">
+                            <a href="#">
+                                В корзине
+                                <span>
+                                    1 товар на 430 руб.
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="search">
+        <div class="container">
+            <div class="search__inner">
+                <div class="search__inner-list">
+                    <a href="#">По номеру</a>            
+                </div>
+                <div class="search__inner-form">
+                    <form>
+                        <input type="text" placeholder="Номер запчасти" required>
+                        <button type="submit">
+                           <span>Поиск</span> 
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+   
 </body>
+<section class="main">
+    <div class="container">
+        <div class="main__inner">
+            <div class="saidbar">
+                <div class="saidbar__search">
+                    <form>
+                        <input type="text" placeholder="Поиск категории" required>
+                        <button type="submit"></button>
+                    </form>
+                </div>
+                <div class="saidbar__menu">
+                    <ul class="saidbar__menu-list">
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Инструмент</a></li>
+                        <li><a href="#">Колесные диски, покрышки</a></li>
+                        <li><a href="#">Кузов внутри</a></li>
+                        <li><a href="#">Кузов наружные элементы</a></li>
+                        <li><a href="#">Кузовные стекла</a></li>
+                        <li><a href="#">Масла и тех. жидкости</a></li>
+                        <li><a href="#">Оптика</a></li>
+                        <li><a href="#">Подвеска двигателя/КПП</a></li>
+                        <li><a href="#">Подвеска задних колес</a></li>
+                        <li><a href="#">Подвеска передних колес</a></li>
+                        <li><a href="#">Рулевое управление</a></li>
+                        <li><a href="#">Система выпуска отработанных газов</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="breadcrumbs">
+                    <div class="breadcrumbs__inner">
+                        <ul class="breadcrumbs__list">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Каталог товаров</a></li>
+                            <li><a href="#">Запчасти для Acura</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content__title">
+                    Запчасти для Acura MDX 2001-2006
+                </div>
+                <div class="content__filter">
+                    <div class="condition">
+                        <button class="condition-btn condition-btn__new">Новые</button>
+                        <button class="condition-btn condition-btn__used">БУ</button>
+                    </div>
+                    <div class="available">
+                        <button class="available-btn available-btn__stock">В наличии</button>
+                        <button class="available-btn available-btn__order">Под заказ</button>
+                    </div>
+                </div>
+                <div class="price__filter">
+                    Цена: <span><a href="#">По возрастанию</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </html>
+
+    
